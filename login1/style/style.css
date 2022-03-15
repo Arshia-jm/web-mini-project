@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+svg {
+    height: 20px;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-weight: 700;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    background: #f6f6f6;
+}
+
+.login-div {
+    width: 430px;
+    height: 700px;
+    background-color: #ecf0f3;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+}
+
+#logo {
+    background: url("../image/A.J.M.jpg");
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-size: 100px 100px;
+    box-shadow: 1px 1px 2px 1px #5f5f5f, 10px 10px 2px 10px #ecf0f3, -2px -1px 1px #999292, 9px 9px 10px 3px #afaaa7;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.fields {
+    width: 100%;
+    padding: 60px 5px 5px 5px;
+}
+
+.fields input {
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 18px;
+    padding: 20px 10px 20px 5px;
+}
+
+.username,
+.password {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    /* margin-left: 3px; */
+    box-shadow: 8px 8px 8px #cbced1, -8px -8px 8px #ffffff;
+}
+
+.svg-icon {
+    height: 22px;
+    margin: 0 10px -4px 25px;
+}
+
+.login-btn {
+    border: none;
+    cursor: pointer;
+    width: 95%;
+    align-items: center;
+    height: 60px;
+    border-radius: 30px;
+    background: #02c8db;
+    color: #ffffff;
+    font-weight: 700;
+    box-shadow: 3px 3px 8px #b1b1b1, -5px -5px 8px #fff;
+    transition: all .5s ease-out;
+}
+
+.login-btn:hover {
+    background: #50e5b9;
+    font-size: 25px;
+    height: 11%;
+}
+
+.link {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 15px;
+}

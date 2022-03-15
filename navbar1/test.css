@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('./Yekan/');
+    /* IE9 Compat Modes */
+    src: url('./Yekan/?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./Yekan/Yekan.woff2') format('woff2'), /* Modern Browsers */
+    url('./Yekan/Yekan.woff') format('woff'), /* Modern Browsers */
+    url('./Yekan/Yekan.otf') format('opentype'), /* Open Type Font */
+    url('./Yekan/Yekan.ttf') format('truetype');
+    /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    font-display: auto;
+}
+
+body {
+    font-family: 'Yekan';
+    text-align: right;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #4A5043;
+}
+
+ul li {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    /* background-color: #dddddd; */
+    padding: 16px;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.active {
+    background-color: #ffcb47;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
