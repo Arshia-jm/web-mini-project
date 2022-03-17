@@ -20,12 +20,15 @@ body {
     margin: 0;
 }
 
+nav {
+    background-color: #4A5043;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     overflow: hidden;
-    background-color: #4A5043;
 }
 
 ul li {
