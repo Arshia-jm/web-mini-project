@@ -18,10 +18,11 @@
     border-radius: 50%;
 }
 
-.navbar {
+
+/* .navbar {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .navbar ul {
     display: flex;
@@ -37,6 +38,8 @@
 img {
     display: flex;
     justify-content: flex-start;
+    position: relative;
+    top: -6px;
 }
 
 .navbar a {
